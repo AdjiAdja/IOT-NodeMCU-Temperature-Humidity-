@@ -1,0 +1,23 @@
+# Credentials — NEVER commit
+config.h
+
+# Arduino
+*.hex
+*.elf
+*.bin
+*.map
+build/
+.pio/
+.vscode/
+*.bak
+*.orig
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Secrets
+*.pem
+*.key
+.env
